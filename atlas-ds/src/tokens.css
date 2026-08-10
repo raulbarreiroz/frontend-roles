@@ -1,0 +1,12 @@
+:root {
+  --atlas-ink: #0f172a;
+  --atlas-muted: #64748b;
+  --atlas-surface: #f8fafc;
+  --atlas-accent: #0891b2;
+  --atlas-radius: 12px;
+  --atlas-font: "Source Sans 3", "Segoe UI", sans-serif;
+  --atlas-space-1: 0.25rem;
+  --atlas-space-2: 0.5rem;
+  --atlas-space-3: 1rem;
+  --atlas-space-4: 1.5rem;
+}

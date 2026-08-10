@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: var(--atlas-font);
+  background:
+    radial-gradient(circle at 20% 0%, #cffafe55, transparent 35%),
+    linear-gradient(180deg, #e2e8f0, var(--atlas-surface));
+  color: var(--atlas-ink);
+}
+
+.shell {
+  width: min(880px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: -0.04em;
+}
+
+header p {
+  color: var(--atlas-muted);
+}
+
+.atlas-stack {
+  display: grid;
+}
+
+.atlas-btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.atlas-btn--primary {
+  background: var(--atlas-accent);
+  color: white;
+}
+
+.atlas-btn--ghost {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+}
+
+.atlas-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--atlas-radius);
+  padding: var(--atlas-space-4);
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.remote {
+  padding: 1.25rem;
+  border-radius: 10px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: ui-monospace, monospace;
+}
